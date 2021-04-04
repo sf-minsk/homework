@@ -1,3 +1,47 @@
 .message {
+    display: flex;
+    align-items: flex-end;
+    width: 600px;
+    border: 2px solid black;
+    background-color: #708136;
+    padding: 10px;
+}
 
+.avatar {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(18, 67, 18, 1) 0);
+}
+
+.messageBlock {
+    background-color: rgba(18, 67, 18, 1);
+    padding: 0px 10px 10px 20px;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.name {
+    font-size: 20px;
+    color: #9898e7;
+    font-weight: bold;
+}
+
+.text {
+    padding-left: 5px;
+    min-width: 150px;
+    max-width: 300px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.time {
+    display: flex;
+    color: rgba(255, 255, 255, 0.3);
+    justify-content: flex-end;
 }
