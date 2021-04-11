@@ -11,7 +11,40 @@
     margin: 10px;
 }
 
-button {
-    margin-top: 10px;
-    width: 87.5px;
+.itemButton {
+    margin: 10px;
+    width: 100px;
+    background-color: #ef5555;
+    border-radius: 10px
 }
+
+.filterButton {
+    color:  black;
+    background-color: #39b8fd;
+    margin: 10px;
+    width: 70px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.filterButtonActive {
+    color:  black;
+    background-color: rgba(57, 184, 253, 0.27);
+    margin: 10px;
+    width: 70px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: green;
+}
+
+.low {
+    color: orange;
+}
+

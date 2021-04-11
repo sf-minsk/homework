@@ -11,10 +11,10 @@ export type FilterType = 'all' | AffairPriorityType
 
 const defaultAffairs: Array<AffairType> = [
     {_id: 1, name: 'React', priority: 'high'},
-    {_id: 2, name: 'anime', priority: 'low'},
-    {_id: 3, name: 'games', priority: 'low'},
-    {_id: 4, name: 'work', priority: 'high'},
-    {_id: 5, name: 'html & css', priority: 'middle'},
+    {_id: 2, name: 'Anime', priority: 'low'},
+    {_id: 3, name: 'Games', priority: 'low'},
+    {_id: 4, name: 'Work', priority: 'high'},
+    {_id: 5, name: 'HTML & CSS', priority: 'middle'},
 ]
 
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => affairs.filter(t => t._id !== _id)
@@ -39,6 +39,7 @@ function HW2() {
                 data={filteredAffairs}
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
+                filter={filter}
             />
         </div>
     )
