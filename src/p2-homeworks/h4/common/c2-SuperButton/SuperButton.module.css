@@ -1,7 +1,11 @@
 .default {
-
+    background-color: #ffffff;
 }
 
 .red {
     background: red;
+}
+
+.default:disabled {
+
 }
