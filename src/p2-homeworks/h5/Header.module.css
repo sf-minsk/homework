@@ -1,0 +1,32 @@
+.menu {
+    position: fixed;
+    top: 30px;
+    transform: translateX(-100%);
+    transition: all .3s linear;
+    opacity: 0.4;
+}
+.navBlock {
+    display: inline-block;
+    background-color: #90cafd;
+}
+.imgBlock {
+    position: inherit;
+    display: inline-block;
+    background-color: #90cafd;
+    border-radius: 0 5px 5px 0;
+}
+.navBlock a {
+    display: block;
+    padding: 5px;
+    color: #000000;
+}
+.menu img {
+    height: 30px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.menu:hover {
+    transform: translateX(0);
+    opacity: 1;
+}
