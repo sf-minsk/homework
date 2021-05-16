@@ -1,11 +1,14 @@
 .menu {
-    position: fixed;
-    top: 30px;
-    transform: translateX(-100%);
+    display: flex;
+    position: static;
+    transform: translateX(-160%);
     transition: all .3s linear;
     opacity: 0.4;
+    height: 40px;
+    width: 40px;
 }
 .navBlock {
+    height: 100px;
     display: inline-block;
     background-color: #90cafd;
 }
