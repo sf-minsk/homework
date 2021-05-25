@@ -1,0 +1,9 @@
+.sortList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App>.buttonsBlock {
+    display: flex;
+    justify-content: space-between;
+}
