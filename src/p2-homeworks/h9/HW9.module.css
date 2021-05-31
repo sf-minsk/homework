@@ -1,0 +1,15 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    justify-content: center;
+}
+
+.timer .dataBlock {
+    height: 40px;
+
+}
+
+.timer .buttonsBlock {
+    display: inline-flex;
+}
