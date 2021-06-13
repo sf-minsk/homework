@@ -26,7 +26,12 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = `${date.getHours()}` + ':' + `${date.getMinutes()}` + ':' + `${date.getSeconds() <= 9 ? '0' + date.getSeconds() : date.getSeconds()}`
+    const stringTime =
+        `${date.getHours() < 10 ? '0' + date.getHours() : date.getHours()}`
+        + ':' +
+        `${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`
+        + ':' +
+        `${date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds()}`
     const stringDate = `${date.getDate()}` + ':' + `${date.getMonth()}` + ':' + `${date.getFullYear()}`
 
     return (
