@@ -10,17 +10,16 @@ function HW11() {
         <div>
             <hr/>
             homeworks 11
-
-            {/*should work (должно работать)*/}
             <div>
-                <span>{value1}</span>
+                <div style={{display: "inline-block", width: '30px', textAlign: "right"}}>{value1}</div>
                 <SuperRange
-                    // сделать так чтоб value1 изменялось
+                    value={value1}
+                    onChangeRange={setValue1}
                 />
             </div>
 
             <div>
-                <span>{value1}</span>
+                <div style={{display: "inline-block", width: '30px', textAlign: "right"}}>{value1}</div>
                 <SuperDoubleRange
                     // сделать так чтоб value1 и value2 изменялось
                 />
